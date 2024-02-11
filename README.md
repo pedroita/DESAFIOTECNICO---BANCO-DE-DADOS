@@ -1,5 +1,5 @@
 
-###Para que haja o carremento  dos arquivos no formato csv  no banco, recomendo extrair o arquivo 2022,2023, em formato rar. Este arquivos estão nesse formato por conta que utrapasaram 25 megas.
+#Para que haja o carremento  dos arquivos no formato csv  no banco, recomendo extrair o arquivo 2022,2023, em formato rar. Este arquivos estão nesse formato por conta que utrapasaram 25 megas.
 
 ##Já pra carregar das operadoras, rode somente o scrip que se encontra na Carregamento das operadoras para o banco, lembrando que voce deve fornercer suas crendencias para acesso via banco de dados.
 

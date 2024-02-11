@@ -1,0 +1,14 @@
+SELECT 
+    DATA, 
+    REG_ANS, 
+    CD_CONTA_CONTABIL, 
+    DESCRICAO, 
+    VL_SALDO_FINAL
+FROM 
+    demonstracoes_contabeis2022
+WHERE 
+    DESCRICAO = 'EVENTOS INDENIZÁVEIS LÍQUIDOS / SINISTROS RETIDOS'
+    AND DATA = '2022-01-01'
+    
+LIMIT 
+    10;

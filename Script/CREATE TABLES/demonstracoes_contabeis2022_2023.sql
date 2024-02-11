@@ -1,0 +1,21 @@
+create database teste_bd;
+
+create table demonstracoes_contabeis2022(
+	DATA varchar(30),
+    REG_ANS VARCHAR(10),
+    CD_CONTA_CONTABIL VARCHAR(30),
+    DESCRICAO VARCHAR(200),
+    VL_SALDO_INICIAL DECIMAL(16,2),
+    VL_SALDO_FINAL DECIMAL(16,2)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+create table demonstracoes_contabeis2023(
+	DATA VARCHAR(30),
+    REG_ANS VARCHAR(10),
+    CD_CONTA_CONTABIL VARCHAR(30),
+    DESCRICAO VARCHAR(200),
+	VL_SALDO_INICIAL DECIMAL(16,2),
+    VL_SALDO_FINAL DECIMAL(16,2)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
